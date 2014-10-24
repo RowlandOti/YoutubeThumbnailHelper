@@ -62,7 +62,10 @@
 		}
 
 		// IF NOT URL TRY ID AS INPUT
-		if(!$this->is_url) { $this->id = $this->input; }
+		if(!$this->is_url) 
+			{ 
+				$this->id = $this->input; 
+			}
 
 		return $this;
 	}
