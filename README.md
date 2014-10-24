@@ -37,6 +37,12 @@ php artisan config:publish rowland/youtubethumbnalhelper
 
 ######Optionally copy the youtubethumbnalhelper config file (src/config/youtubethumbnalhelper.php) to your administrator model config directory.
 
+######Create the relevant image upload directories that you specify in your config, e.g.
+```
+public/assets/packages/rowland/youtubethumbnalhelper/assets/youtube/play
+```
+
+
 Simple now you can access it from view/model or controller just like this:
 ```php
 YoutubeThumbnailHelper::register("http://www.youtube.com/watch?v=YdIerlxIcHO")->create_image()
