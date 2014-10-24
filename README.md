@@ -8,28 +8,34 @@ A class based on "YouTube Thumbnail Enchancer by Hal Gatewood". You can check it
 Simply, add this class into your View/Helper directory and access it from view just like this:
 
 Installation
-
+------------
 Add the following to you composer.json file (Recommend swapping "dev-master" for the latest release)
 
 "rowland/youtubethumbnalhelper": "dev-master"
 
-Run
+######Run
 
 composer update
 
-Add the following to app/config/app.php
-
+######Add the following to app/config/app.php
+```
 'Rowland\YoutubeThumbnailHelper\YoutubeThumbnailHelperServiceProvider',
+```
 
-Run the package migration
-
+######Run the package migration
+```
 php artisan migrate --package=rowland/youtubethumbnalhelper
+```
 
 Publish the config
-
+```
 php artisan config:publish rowland/youtubethumbnalhelper
+```
 
-Optionally tweak the settings in the many config files for your app
-Optionally copy the youtubethumbnalhelper config file (src/config/youtubethumbnalhelper.php) to your administrator model config directory.
+######Optionally tweak the settings in the many config files for your app
 
+######Optionally copy the youtubethumbnalhelper config file (src/config/youtubethumbnalhelper.php) to your administrator model config directory.
+
+Simple now you can access it from view/model or controller just like this:
+```php
 YoutubeThumbnailHelper::register("http://www.youtube.com/watch?v=YdIerlxIcHO")->create_image()
