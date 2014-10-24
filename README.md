@@ -34,11 +34,9 @@ Publish the config
 php artisan config:publish rowland/youtubethumbnalhelper
 ```
 
-######Optionally tweak the settings in the many config files for your app
+Optionally tweak the settings in the many config files for your app. Optionally copy the youtubethumbnalhelper config file (src/config/youtubethumbnalhelper.php) to your administrator model config directory.
 
-######Optionally copy the youtubethumbnalhelper config file (src/config/youtubethumbnalhelper.php) to your administrator model config directory.
-
-######Create the relevant image upload directories that you specify in your config, e.g.
+Create the relevant image upload directories that you specify in your config, e.g.
 ```
 public/assets/packages/rowland/youtubethumbnalhelper/assets/youtube/play
 ```
