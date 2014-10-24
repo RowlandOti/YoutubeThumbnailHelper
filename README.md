@@ -10,8 +10,9 @@ Simply, add this class into your View/Helper directory and access it from view j
 Installation
 ------------
 Add the following to you composer.json file (Recommend swapping "dev-master" for the latest release)
-
+```
 "rowland/youtubethumbnalhelper": "dev-master"
+```
 
 ######Run
 
