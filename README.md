@@ -38,7 +38,7 @@ Optionally tweak the settings in the many config files for your app. Optionally 
 
 Create the relevant image upload directories that you specify in your config, e.g.
 ```
-public/assets/packages/rowland/youtubethumbnalhelper/assets/youtube/play
+public/assets/packages/rowland/youtubethumbnalhelper/youtube/play
 ```
 
 
