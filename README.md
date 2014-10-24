@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-YoutubeThumbnailHelper
-======================
 
-Easily create youtube thumbnails with play buttons watermarked on the top for laravel and private projects. A youtube thumbnail generator package for Laravel
-=======
 YoutubeThumbnailHelper
 ======================
 
@@ -52,4 +47,4 @@ public/assets/packages/rowland/youtubethumbnalhelper/assets/youtube/play
 Simple now you can access it from view/model or controller just like this:
 ```php
 YoutubeThumbnailHelper::register("http://www.youtube.com/watch?v=YdIerlxIcHO")->create_image()
->>>>>>> 1fae35a89746af6e16428333185ab6364d8e3f54
+```
